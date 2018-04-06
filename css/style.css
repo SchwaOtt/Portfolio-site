@@ -1,3 +1,4 @@
+/*Presetting for SocialMedia fonts*/
 [class*="zocial-"]:before {
   color: black;
   display: inline-block;
@@ -5,6 +6,8 @@
   text-shadow: 3px 3px 3px #aaa;
   width: 2em;
 }
+
+/*Major formattings*/
 
 html {
   margin: 0;
@@ -51,6 +54,8 @@ a img {
   width: 96vw;
 }
 
+/*UdaCity Logo*/
+
 .logo {
   width: 33%;
 }
@@ -63,6 +68,8 @@ a img {
   width: 8vw;
   height: 8vw;
 }
+
+/*Header title*/
 
 .title {
   text-align: right;
@@ -86,6 +93,8 @@ a img {
   font-size: 3vw;
   text-transform: uppercase;
 }
+
+/*Setting for SocialMedia fonts*/
 
 .social {
   margin: 1vw 0 0 0;
