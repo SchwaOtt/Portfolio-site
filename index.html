@@ -32,7 +32,7 @@
       <h4>front-end ninja</h4>
     </div>
 
-    <div class="line"></div>
+    <hr class="line"></hr>
 
 <!--Main picture from my WorkPlace-->
     <picture class="main_pic">
@@ -45,21 +45,33 @@
     <p>Featured Work</p>
 
     <a href="https://github.com/SchwaOtt/Animal-Trading-Card">
-      <img src="img/animal.jpg" alt="Animal-Trading-Card">
+      <picture>
+        <source media="(min-width: 800px)" srcset="img/animal_large.jpg"  />
+        <source media="(min-width: 640px)" srcset="img/animal_medium.jpg" />
+        <img src="img/animal_small.jpg" alt="Animal-Trading-Card">
+      </picture>
       <div class="work-title">
         Trading-Card
       </div>
       https://github.com/SchwaOtt/Animal-Trading-Card</a>
 
     <a href="https://github.com/SchwaOtt/Pixel-Art-Maker">
-      <img src="img/pixel.jpg" alt="Pixel-Art-Maker">
+      <picture>
+        <source media="(min-width: 800px)" srcset="img/pixel_large.jpg"  />
+        <source media="(min-width: 640px)" srcset="img/pixel_medium.jpg" />
+        <img src="img/pixel_small.jpg" alt="Pixel-Art-Maker">
+      </picture>
       <div class="work-title">
         Pixel-Art-Maker
       </div>
       https://github.com/SchwaOtt/Pixel-Art-Maker</a>
 
     <a href="#">
-      <img src="img/memory.jpg" alt="Memory-Game">
+      <picture>
+        <source media="(min-width: 800px)" srcset="img/memory_large.jpg"  />
+        <source media="(min-width: 640px)" srcset="img/memory_medium.jpg" />
+        <img src="img/memory_small.jpg" alt="Memory-Game">
+      </picture>
       <div class="work-title">
         Memory-Game
       </div>
@@ -69,16 +81,12 @@
 
   </header>
 
-  <footer>
+  <footer class="social">
 
 <!--Contacts and SocialMedia links-->
-    <div class="social">
-
-      <a href="https://github.com/SchwaOtt" class="zocial-github"></a>
-      <a href="https://www.facebook.com/otto.schwarcz" class="zocial-facebook"></a>
-      <a href="https://www.linkedin.com/in/schwarcz-ottó-82605b103" class="zocial-linkedin"></a>
-
-    </div>
+    <a href="https://github.com/SchwaOtt" class="zocial-github"></a>
+    <a href="https://www.facebook.com/otto.schwarcz" class="zocial-facebook"></a>
+    <a href="https://www.linkedin.com/in/schwarcz-ottó-82605b103" class="zocial-linkedin"></a>
 
   </footer>
 
